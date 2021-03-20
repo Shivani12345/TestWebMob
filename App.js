@@ -13,7 +13,7 @@ import {
 const Stack = createStackNavigator()
 
 export default function App() {
-  return (
+  return ( 
     <Provider theme={theme}>
       <NavigationContainer>
         <Stack.Navigator
