@@ -14,9 +14,7 @@ export default function Dashboard({ navigation }) {
   const [dataresponse, setResponse] = useState({ value: '' })
  
 
-  const getuserList = () => {
-
-
+  
     let username = await AsyncStorage.getItem("username");
     let email = await AsyncStorage.getItem("email");
     let password = await AsyncStorage.getItem("password");
@@ -27,10 +25,9 @@ export default function Dashboard({ navigation }) {
     let token = await AsyncStorage.getItem("token");
 
 
-
-      setName({name  })
+      setName({ name  })
       setEmail({ email })
-      setPassword({password})
+      setPassword({ password})
       setProfile({ photo  })
       setToken({ uid })
 
@@ -51,7 +48,7 @@ export default function Dashboard({ navigation }) {
         console.warn("err", error.message)
       });
       
-    }   
+      
 
   return (
     <Background>

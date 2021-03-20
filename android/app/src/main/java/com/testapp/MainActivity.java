@@ -1,4 +1,4 @@
-package com.testapp;
+package com.wmt.shivani;
 
 import com.facebook.react.ReactActivity;
 
